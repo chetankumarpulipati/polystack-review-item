@@ -201,9 +201,7 @@ Twilio webhook endpoint (configured in Twilio Console).
    - Open `http://localhost:3000`
    - Click refresh button
    - Reviews should load automatically
-
-## Screenshots & Demo
-
+   
 ### Expected Flow:
 1. User sends message to WhatsApp
 2. Bot guides conversation to collect: product name → user name → review
@@ -273,15 +271,3 @@ For issues or questions:
 3. Check server logs for error messages
 
 ---
-
-**Time to Complete:** ~2 days  
-**Last Updated:** November 18, 2025
-fastapi==0.104.1
-uvicorn[standard]==0.24.0
-sqlalchemy==2.0.23
-psycopg2-binary==2.9.9
-python-dotenv==1.0.0
-twilio==8.10.0
-alembic==1.12.1
-pydantic==2.5.0
-
